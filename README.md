@@ -265,11 +265,7 @@ Escriba ingresos totales: 20000
 ¡ENHORABUENA!
 En base a la información proporcionada, ha conseguido Vd. el crédito solicitado.</pre>
 <!-- InstanceEndEditable --><!-- End the content-main division -->
-<script type="text/javascript">
-	
-	self.onload = generaReferencias('numFigura1');
-	self.onload = init();
-</script>
+
 </div>
 
 	</ul>
@@ -306,11 +302,7 @@ Peras     11 kgs.
   Escribe un programa en Python (<em>ejercicio3.7.py</em>) que solicite al usuario números enteros para crear dos listas. El programa debe mostrar si las listas tienen la misma longitud (mismo número de elemento), si los números de cada lista suman el mismo valor, y si ambas listas comparten valores comunes.
  
 <!-- InstanceEndEditable --><!-- End the content-main division -->
-<script type="text/javascript">
-	
-	self.onload = generaReferencias('numFigura1');
-	self.onload = init();
-</script>
+
 </div>
 		<li><a name="ej5">Soluciones ejercicios 5</a></li>
 		<div id="content-main">
@@ -336,11 +328,7 @@ Peras     11 kgs.
   <p>&nbsp;</p>
   <p>&nbsp;</p>
 <!-- InstanceEndEditable --><!-- End the content-main division -->
-<script type="text/javascript">
-	
-	self.onload = generaReferencias('numFigura1');
-	self.onload = init();
-</script>
+
 </div>
 	</ul>
 	<li><b><a name="dia4">Día 4</a></b></li>
@@ -368,11 +356,7 @@ Peras     11 kgs.
  
   <p>&nbsp;</p>
 <!-- InstanceEndEditable --><!-- End the content-main division -->
-<script type="text/javascript">
-	
-	self.onload = generaReferencias('numFigura1');
-	self.onload = init();
-</script>
+
 </div>
 		<li><a name="ej7">Soluciones ejercicios 7</a></li>
 		<div id="content-main">
@@ -421,11 +405,7 @@ Implementa un programa completo (<code>ejercicio7.3.py</code>) que muestre una l
  
   <p>&nbsp;</p>
 <!-- InstanceEndEditable --><!-- End the content-main division -->
-<script type="text/javascript">
-	
-	self.onload = generaReferencias('numFigura1');
-	self.onload = init();
-</script>
+
 </div>
 	</ul>
 </ol>
