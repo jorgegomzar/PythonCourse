@@ -23,7 +23,7 @@
 </ol>
 <h4>Contenido</h4>
 <ol>
-	<a name="dia1">Día 1</a></b></li>
+	<li><b><a name="dia1">Día 1</a></b></li>
 	<ul>
 		<li><h3><a name="ej1">Soluciones ejercicios 1</a></h3></li>
 	</ul>
