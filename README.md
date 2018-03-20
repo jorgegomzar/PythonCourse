@@ -263,7 +263,7 @@ Escriba ingresos totales: 20000
 ¿Hace cuantos años que fue propietario de una vivienda?: 6
 
 ¡ENHORABUENA!
-En base a la información proporcionada, ha conseguido Vd. el crédito solicitado.</pre>
+En base a la información proporcionada, ha conseguido Vd. el crédito solicitado.</pre><div></div>
 <!-- InstanceEndEditable --><!-- End the content-main division -->
 
 </div>
