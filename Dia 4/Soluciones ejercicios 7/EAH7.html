@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><!-- InstanceBegin template="/Templates/PyC78_tutoriales.dwt" codeOutsideHTMLIsLocked="false" -->
+<!-- saved from url=(0014)about:internet -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ejercicios sobre Datos y Expresiones</title>
+<!-- InstanceEndEditable -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] },
+	commonHTML: {scale:100, mtextFontInherit: true}
+  });
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<link href="../../../css/PyC78.css" rel="stylesheet" type="text/css">
+<link href="../../../css/python78.css" rel="stylesheet" type="text/css">
+<link href="../../../css/tablas.css" rel="stylesheet" type="text/css">
+<link href="../../../css/listas.css" rel="stylesheet" type="text/css">
+<link href="../../../css/numeracion.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="../../../css/imprimir78.css" media="print" />
+
+<script type="text/javascript" src="../../../scripts/figuras.js"></script>
+<script type="text/javascript" src="../../../scripts/prog45.js"></script>
+
+<style type="text/css">
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="style" type="text" value="display:block" -->
+</head> 
+
+<body>
+
+<div id="contenedor">
+<div id="contenedor-interior"> 
+
+
+<div id="wrap-outer">
+
+<!-- header filled by JavaScript -->
+<!--div id="header" class="header-footer"></div-->
+
+<div id="wrap-inner">
+<!-- InstanceBeginEditable name="LOGO" -->
+<p><img style="width:3cm" class="image-float-right" src="../../img/python-icon.png"></p>
+<!-- InstanceEndEditable -->
+
+<div id="content-header">
+<!-- InstanceBeginEditable name="TITULO" -->
+<h1>Ejercicios de Afianzamiento de Habilidades</h1>
+ <h2>Diseño Modular</h2>
+
+<!-- InstanceEndEditable -->
+</div>
+
+<!-- InstanceBeginEditable name="INDICE" -->
+<div class="manto_indice" style="display:block">
+  <div id="code-snippet-1" class="codeSnippetContainer" style="width:80%">
+    <div class="codeSnippetContainerTabs">
+        <div class="codeSnippetContainerTabSingle" dir="ltr">Contenidos</div>
+    </div>
+    <div class="codeSnippetContainerCodeContainer">
+        <!--div class="codeSnippetContainerCode" dir="ltr"-->
+            <div id="indice" style="background: none repeat scroll 0 0 rgb(250, 2550, 250);"></div>  <!-- for showing the "Table of Content" -->
+        <!--/div-->
+    </div>
+</div>
+</div> 
+<!-- InstanceEndEditable -->
+ 
+
+<div id="content-main">
+<!-- InstanceBeginEditable name="Cuerpo" -->
+ 
+  <h3>Ejercicio 1</h3>
+  <p>Escribe una función llamada <code>convertStatus()</code> a la que  se le pasa el código de estado <code>'f'</code>, <code>'s'</code>, <code>'j'</code> o <code>'r'</code> y devuelve la cadena <code>'freshman'</code>, <code>'sophomore'</code>, <code>'junior'</code> o <code>'senior'</code>, respectivamente. Diseña tu función de forma que si recibe una letra inapropiada, devuelva un valor de error. Asegúrate de incluir un <em>docstring</em> apropiado para la función. Escribe un programa Python (<em>ejercicio7.1.py</em>) con la función <code>convertStatus()</code> y el código necesario para probar el correcto funcionamiento de dicha función.</p>
+  <h3>Ejercicio 2</h3>
+  <p>Escribe una función llamada <code>compruebaPalindromo()</code> que utilice iteración para  devolver <code>True</code> si una cadena proporcionada es un palíndromo, y <code>False</code> en caso contrario. Asegúrate de incluir la especificación <em> docstring</em> para la función. Escribe un programa Python (<em>ejercicio7.2.py</em>) con la función <code>compruebaPalindromo()</code> y el código necesario para probar el correcto funcionamiento de dicha función.</p>
+
+<h3>Ejercicio 3</h3>
+<p>Implementa un conjunto de funciones llamadas <code>getDatos()</code>, <code>extraeValores()</code> y <code>calcRatios()</code>. La función <code>getDatos()</code> debe solicitar al usuario que ingrese pares de enteros, dos por línea, con cada par leído como una sola cadena, por ejemplo,</p>
+
+<table class="tb-formula">
+  <tr><td>
+<div>
+<pre>Introduce una par de enteros (pulsa Enter para finalizar):
+134 289 <em>(leído como '134 289')</em>
+<em>etc</em></pre></div>
+</td></tr></table>
+
+
+
+<p>Estas cadenas se deben pasar una a la vez mientras se leen pasar a la función  <code>extraeValor()</code>, que está diseñada para devolver la cadena como una tupla de dos valores enteros,</p>
+
+<table class="tb-formula">
+<tr><td>
+<div>
+<pre>extraeValores('134 289')
+<em>[...devuelve (134, 289)...]</em></pre></div>
+</td></tr></table>
+
+
+<p>Finalmente, cada una de estas tuplas se pasa a la función <code>calcRatios()</code> para calcular y devolver el ratio  de los dos valores. Por ejemplo,</p>
+<table class="tb-formula">
+<tr><td>
+<div>
+<pre>calcRatios((134, 289))
+<em>[...devuelve 0.46366782006920415...]</em></pre></div>
+</td></tr></table>
+
+<p><br>
+Implementa un programa completo (<code>ejercicio7.3.py</code>) que muestre una lista de ratios para una serie  de pares de valores enteros ingresados por teclado. Asegúrate de incluir la especificación de <code>docstring</code> para cada una de las funciones.</p>
+<h3>Ejercicio 4</h3>
+<p>Crea un módulo Python, llamado <code>misfunciones.py</code>, con las funciones del ejercicio 3. Después, implementa un programa Python (<em>ejercicio7.4.py</em>), similar al del ejercicio anterior, pero que en lugar de definir las funciones las importe del módulo <code>misfunciones</code>.</p>
+ 
+  <p>&nbsp;</p>
+<!-- InstanceEndEditable --><!-- End the content-main division -->
+<script type="text/javascript">
+	
+	self.onload = generaReferencias('numFigura1');
+	self.onload = init();
+</script>
+</div>
+
+</div>  <!-- End the wrap-inner division -->
+
+
+
+</div>  <!-- End the wrap-outer division -->
+
+<!-- InstanceBeginEditable name="Foot" --><!-- InstanceEndEditable --><!-- End the foot division -->
+
+</div> <!-- end contenedor interior -->
+</div> <!-- end contenedor -->
+</body>
+<!-- InstanceEnd --></html>
